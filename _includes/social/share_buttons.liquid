@@ -8,7 +8,7 @@
    or site.data.social.share.wordpress or site.theme_settings.wordpress
    or site.data.social.share.email or site.theme_settings.email %}
 
-<div class="share-buttons">
+{% comment %} <div class="share-buttons">
     <ul class="share-buttons">
         <li class="meta">Share</li>
         {% if site.data.social.share.facebook or site.theme_settings.share_buttons.facebook %}
@@ -87,6 +87,6 @@
         </li>
         {% endif %}
     </ul>
-</div>
+</div> {% endcomment %}
 
 {% endif %}
