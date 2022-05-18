@@ -25,7 +25,7 @@ future: true
 # For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
 katex: true # Enable if using math markup
 mermaid: true # Enable mermaid-js for sequence and diagrams
-google_analytics: # Tracking ID, e.g. "UA-000000-01"
+google_analytics: G-5635KTMRBQ
 cookie_consent: false # To respect the usage of cookies
 color_theme: auto # auto, dark or light
 
@@ -62,11 +62,3 @@ exclude:
 
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
-
-# Analytics
-analytics:
-  provider               : "google-gtag" 
-                          # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : "G-5635KTMRBQ"
-    anonymize_ip         : # true, false (default)
