@@ -62,3 +62,11 @@ exclude:
 
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
+
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-5635KTMRBQ"
+    anonymize_ip         : # true, false (default)
